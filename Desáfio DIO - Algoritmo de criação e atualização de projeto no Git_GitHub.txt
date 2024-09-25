@@ -1,0 +1,43 @@
+A seguir é apresentado as instruções para realizar o processo de criação de um repositório no Git/GitHub.
+
+Vamos iniciar acessando o site do Git Bash:
+O git bash é um terminal extendido para otimizar o uso do git.
+
+1. Link: https://git-scm.com/downloads
+2. Escolha a versão adequada ao seu sistema operacional. Exemplo: Windows faça "Download for Windows"
+3. Na página carregada esta na versão em inglês click em "Click here to download" que esta em cor destacada no inicio da página!
+4. Se preferir traduza a página por meio da ação: click com o botão direito do mouse e navegue pelo menu que aparece e escolha "Traduzir para português".
+5. Na página traduzida há "Clique aqui para baixar" que esta em cor destacada no inicio da página! Faça a ação de clicar!
+6. Aguarde o download finalizar!
+7. Faça a ação de duplo clique no arquivo de nome exemplo: Git-2.46.1-64-bit
+Obs: A versão é 2.46.1, a arquitetura do sistema é 64 bit
+8. Siga as instruções do instalador, clique em executar, em seguida clique em "Next" até a instalação ser concluída. Então clique em "Finish" para finalizar!
+9. Volte o navegador e pesquise por: "git hub" em seguida clique em "GitHub: Let’s build from here · GitHub".
+10. Na página carregada clique no botão denominado "Sign in" ou "Entrar" para fazer o login em sua conta.
+11. Na página do seu usuário na lateral esquerda observe o tópico em negrito "Top repositories" ou "Principais repositórios" logo ao lado tem-se o botão "New" ou "Novo" clique para criar um novo repositório.
+12. Digite o nome do repositório! Exemplo: Desafio-DIO-instruções-de-criação-e-edição-de-repositorio-git-github
+13. Adicione uma descrição ao seu projeto que é inicialmente opcional, porém, preenchendo agrega valor e enriquecimento ao seu projeto. Exemplo: "Processo de criação, clonagem e edição de novo repositório git/github usando o git bash!"
+14. Faça a ação de escolher se o repositório será "Público ou Privado" de modo geral é "Público" pelo intuito de divulgar suas habilidades!
+15. Clique em Adicionar um arquivo README, que permite adicionar uma longa descrição do seu projeto.
+16. Você pode optar por escolher alguma das opções de licença disponíveis de acordo com a necessidade do projeto, inicialmente podemos optar deixar a opção "Nenhuma".
+17. Agora faça a ação de clique no botão "Criar repositório"!
+18. Ainda no navegador na página do repositório do git/GitHub clique na seta do botão "<> código" e escolha o link do repositório chamado na aba "local" na opção "HTTPS" e copie o link.
+19. Antes de realizar a ação de clonar o repositório GitHub crie uma pasta/diretório que deseja utilizar para o projeto em seu desktop.
+20. Agora com o diretório criado clique com o botão direito do mouse e navegue ate a opção "Mostrar mais opções" em seguida "Open Git Bash here".
+21. Para baixar/fazer um clone do repositório cópia digite o seguinte código no git bash: git clone "cole o link copiado do repositório". Em seguida aperte enter para executar a ação.
+Obs: 
+A. Se for a primeira vez usando o git bash, será necessário fazer autenticação via browser/navegador e digitar as credenciais de login. Se você estiver usando o Windows.
+B. Se for Linux ou Mac será solicitado usuário e senha.
+22. Volte para o git bash e faça a seguinte ação para entrar no diretório clonado: cd "nome do diretório" e clique no botão enter.
+23. Para verificar se esta tudo correto faça; "git status" que retornará um comentário de cor vermelha indicando as alterações não foram registrada no controle de versionamento local.
+24. Para enviar as alterações no diretório clonada é necessário fazer um committed por meio do git bash. Então volte ao git bash e digite: 
+	git add . 
+	ou 
+	git add -A
+Para registrar as alterações no projeto no controle de versionamento local.
+25. Para verificar se esta tudo certo no versionamento faça no git bash o comando: "git status" o resultado deve ser um comentário em verde.
+26. Observe que as alterações não foram enviadas/atualizadas no repositório online do GitHub. Mas apenas no versionamento local. Para fazer o registro online deve-se fazer o seguinte comando no git bash: "git commit -m "Inclusão do arquivo de instruções do algoritmo de clonagem e atualização do GitHub via git bash"
+Obs: -m atribui a mensagem colocada no comando o comentário.
+27. Em seguida para concluir o processo de envio deve-se fazer o comando: "git push origin main". Que realiza o envio de todas as alterações locais para o repositório online do GitHub na nuvem.
+
+
